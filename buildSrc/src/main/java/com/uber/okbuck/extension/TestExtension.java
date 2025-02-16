@@ -16,9 +16,9 @@ public class TestExtension {
   /**
    * Specify the preinstrumented version of artifacts to be used.
    * Hardcoded in Robolectric
-   * https://github.com/robolectric/robolectric/blob/master/robolectric/src/main/java/org/robolectric/plugins/DefaultSdkProvider.java#L50
+   * https://github.com/robolectric/robolectric/blob/master/robolectric/src/main/java/org/robolectric/plugins/DefaultSdkProvider.java#L49
    */
-  public String robolectricPreinstrumentedVersion = "i4";
+  public String robolectricPreinstrumentedVersion = "i7";
 
   /** Enable generation of espresso test rules. */
   public boolean espresso = false;
